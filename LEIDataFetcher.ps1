@@ -1,5 +1,5 @@
-[string]$fileName = 'C:\Git\source\repos\Mine\powershelltestfiles\LEICode.csv'
-[string]$output = 'C:\Git\source\repos\Mine\powershelltestfiles\LEICode_Updated.csv'
+[string]$fileName = 'C:\Git\source\repos\Tom\LEIDataFetcher\powershelltestfiles\LEICode.csv'
+[string]$output = 'C:\Git\source\repos\Tom\LEIDataFetcher\powershelltestfiles\LEICode_Updated.csv'
 [string]$uri = 'https://leilookup.gleif.org/api/v2/leirecords?lei='
 
 $csv = Import-Csv -Path $fileName 
